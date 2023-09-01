@@ -10,6 +10,6 @@ module.exports = {
     },
   },
   paths: {
-    artifacts: "./app/src/artifacts",
+    artifacts: "./app/src/ABI",
   },
 };

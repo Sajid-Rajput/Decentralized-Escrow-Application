@@ -6,3 +6,4 @@ node_modules
 artifacts
 *.bck
 test
+hardhat.config.js
