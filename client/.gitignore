@@ -1,7 +1,7 @@
 app/dist
 app/artifacts
 cache
-# .env
+.env
 node_modules
 artifacts
 *.bck
