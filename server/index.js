@@ -7,11 +7,7 @@ require("dotenv").config();
 const app = express();
 
 app.use(express.json());
-app.use(
-  cors({
-    origin: "https://sajid-escrow-dapp.vercel.app/",
-  })
-);
+app.use(cors());
 
 const PORT = process.env.PORT || 4000;
 
