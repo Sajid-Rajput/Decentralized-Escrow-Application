@@ -1,0 +1,31 @@
+/* Resetting default margin and padding on the body and root elements */
+body,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #eee;
+  font-family: Arial, sans-serif; /* Add a default font-family */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Content container styles */
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* Allow the content to grow and fill the remaining space */
+}
