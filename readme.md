@@ -24,3 +24,10 @@ Compile the contracts using `npx hardhat compile`. The artifacts will be placed 
 
 To run the front-end application run `npm start` from the `/app` directory. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## Back-End
+
+`cd` into the `/server` directory and run `npm install`
+
+To run the back-end application run `nodemon app.js` from the server directory. The server is running on [http://127.0.0.1:4000](http://127.0.0.1:4000).
+
+In the `cors` middleware change the origin and adds your for testing and connecting the API.
